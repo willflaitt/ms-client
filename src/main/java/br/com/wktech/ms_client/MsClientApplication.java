@@ -20,6 +20,6 @@ public class MsClientApplication {
 	@GetMapping("/clientes")
 	public String clientes() {
 		log.info("Endpoint /clientes foi chamado");
-		return "Microserviço de Clientes";
+		return "Microserviço de Clientes nova versao";
 	}
 }
